@@ -174,4 +174,7 @@ def main():
             print(f"❌ 操作失败: {str(e)}")
 
 if __name__ == "__main__":
+    proxy = 'http://127.0.0.1:8118'
+    os.environ['HTTP_PROXY'] = proxy
+    os.environ['HTTPS_PROXY'] = proxy
     main() 
