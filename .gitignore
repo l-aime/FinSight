@@ -1,0 +1,71 @@
+# FinSight项目 .gitignore文件
+
+# 数据模板文件夹 - 包含动态生成的数据文件
+data_templates/
+
+# 财务数据日志文件
+financial_data.log
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统相关
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# Excel文件 (如果不需要版本控制)
+*.xlsx
+*.xls
+
+# JSON数据文件 (如果不需要版本控制)
+*.json
+
+# 其他数据文件
+*.csv
+*.dat
